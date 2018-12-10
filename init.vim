@@ -13,6 +13,7 @@ if dein#load_state(s:plugins_dir)
 	call dein#begin(s:plugins_dir)
 	call dein#load_toml('~/.config/nvim/plugins.toml', {})
 	call dein#load_toml('~/.config/nvim/plugins_python.toml', {'lazy': 1})
+	call dein#load_toml('~/.config/nvim/plugins_rust.toml', {'lazy': 1})
 	call dein#end()
 	call dein#save_state()
 endif
@@ -81,8 +82,10 @@ aug MyAutoCmd
 	au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 augroup END
 
-" remap
+" map
+let mapleader = ','
 noremap <ESC><ESC> :noh<CR>
+
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
