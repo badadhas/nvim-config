@@ -82,3 +82,6 @@ augroup END
 
 " remap
 noremap <ESC><ESC> :noh<CR>
+
+" deoplete
+let g:deoplete#enable_at_startup = 1
