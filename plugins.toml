@@ -1,0 +1,8 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'aereal/vim-colors-japanesque'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
