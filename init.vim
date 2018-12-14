@@ -64,7 +64,7 @@ set noexpandtab  " 入力したタブをスペースに置き換えない
 set smarttab  " 行頭ではshiftwidthの数だけ空白を挿入。他の場所ではtabstopまたはsofttabstopの数だけ空白を挿入
 
 " misc
-colorscheme japanesque  " カラースキームを設定する
+colorscheme iceberg  " カラースキームを設定する
 set helplang=ja,en  " ヘルプファイルを検索する言語の順番を指定する
 set encoding=utf-8
 

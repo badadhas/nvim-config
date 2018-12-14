@@ -8,5 +8,8 @@ repo = 'Shougo/deoplete.nvim'
 repo = 'aereal/vim-colors-japanesque'
 
 [[plugins]]
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
 repo = 'cespare/vim-toml'
 on_ft = 'toml'
